@@ -15,7 +15,6 @@ require('./config/passport')(passport);
 //------------ DB Configuration ------------//
 const db = require('./config/key').MongoURI;
 
-//------------ Mongo Connection ------------//
 
 //------------ EJS Configuration ------------//
 app.use(expressLayouts);
